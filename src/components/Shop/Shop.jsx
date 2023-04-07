@@ -37,7 +37,7 @@ const Shop = () => {
         setCart(savedCart)
     }, [products])
 
-    console.log(cart)
+    // console.log(cart)
 
     const handleAddToCart = (product) => {
         // cart.push(product) not possible 
